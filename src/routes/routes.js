@@ -18,8 +18,8 @@ const routes = (app) => {
         .get(getProductWithID)
 
         .put(updateProduct)
-        
-        .delete(deleteProduct)
+
+        .delete(deleteProduct);
 }
 
 export default routes;
